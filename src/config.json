@@ -42,6 +42,16 @@
             "addresses": {
                 "1": "0xE57e98E8B0fCf542816ddAA738505cDB7C36E8BA"
             }
+        },
+        {
+            "decimals": 18,
+            "symbol": "sharks",
+            "name": "SharkCex LITE",
+            "icon": "assets/icons/shark.svg",
+            "primaryColor": "#DEA349",
+            "addresses": {
+                "1": "0x62b1182222a5C33e26Ed1B26d307D17595144D73"
+            }
         }
     ],
     "pairs": [
