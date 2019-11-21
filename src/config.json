@@ -52,11 +52,37 @@
             "addresses": {
                 "1": "0x62b1182222a5C33e26Ed1B26d307D17595144D73"
             }
+        },
+        {
+            "decimals": 6,
+            "symbol": "usdt",
+            "name": "Tether USDT",
+            "icon": "assets/icons/usdt.svg",
+            "primaryColor": "#DEA349",
+            "addresses": {
+                "1": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            }
         }
     ],
     "pairs": [
         {
             "base": "shark",
+            "quote": "weth"
+        },
+        {
+            "base": "sharks",
+            "quote": "weth"
+        },
+        {
+            "base": "shark",
+            "quote": "usdt"
+        },
+        {
+            "base": "sharks",
+            "quote": "usdt"
+        },
+        {
+            "base": "usdt",
             "quote": "weth"
         }
     ],
