@@ -84,6 +84,10 @@
         {
             "base": "usdt",
             "quote": "weth"
+        },
+        {
+            "base": "sharks",
+            "quote": "shark"
         }
     ],
     "marketFilters": [
