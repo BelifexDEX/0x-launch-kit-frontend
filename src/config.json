@@ -66,7 +66,7 @@
     ],
     "pairs": [
         {
-            "base": "belfx",
+            "base": "befx",
             "quote": "weth"
         },
         {
@@ -74,7 +74,7 @@
             "quote": "weth"
         },
         {
-            "base": "belx",
+            "base": "befx",
             "quote": "usdt"
         },
         {
