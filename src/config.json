@@ -62,6 +62,16 @@
             "addresses": {
                 "1": "0xdac17f958d2ee523a2206206994597c13d831ec7"
             }
+        },
+        {
+            "decimals": 18,
+            "symbol": "xsb",
+            "name": "XSB Swap Unit",
+            "icon": "assets/icons/xsb.svg",
+            "primaryColor": "#DEA349",
+            "addresses": {
+                "1": "0xc8ec93be9303dc7c6c9b449ccb6852cd24ef37d4"
+            }
         }
     ],
     "pairs": [
@@ -88,6 +98,22 @@
         {
             "base": "sharks",
             "quote": "shark"
+        },
+        {
+            "base": "xsb",
+            "quote": "weth"
+        },
+        {
+            "base": "xsb",
+            "quote": "shark"
+        },
+        {
+            "base": "xsb",
+            "quote": "sharks"
+        },
+        {
+            "base": "xsb",
+            "quote": "usdt"
         }
     ],
     "marketFilters": [
