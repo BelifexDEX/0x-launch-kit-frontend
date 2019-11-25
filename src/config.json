@@ -1,6 +1,6 @@
 {
     "general": {
-        "title": "SharkDEX"
+        "title": "Belifex"
     },
     "tokens": [
         {
@@ -35,22 +35,22 @@
         },
         {
             "decimals": 18,
-            "symbol": "shark",
-            "name": "Shark",
-            "icon": "assets/icons/shark.svg",
+            "symbol": "helex",
+            "name": "HELEX Token",
+            "icon": "assets/icons/helex.svg",
             "primaryColor": "#DEA349",
             "addresses": {
-                "1": "0xE57e98E8B0fCf542816ddAA738505cDB7C36E8BA"
+                "1": "0x66eb65d7ab8e9567ba0fa6e37c305956c5341574"
             }
         },
         {
             "decimals": 18,
-            "symbol": "sharks",
-            "name": "SharkCex LITE",
+            "symbol": "befx",
+            "name": "Belifex Token",
             "icon": "assets/icons/shark.svg",
             "primaryColor": "#DEA349",
             "addresses": {
-                "1": "0x62b1182222a5C33e26Ed1B26d307D17595144D73"
+                "1": "0xb91c2a2b953d72f3ef890490669a0a41b0add5f7"
             }
         },
         {
@@ -62,58 +62,28 @@
             "addresses": {
                 "1": "0xdac17f958d2ee523a2206206994597c13d831ec7"
             }
-        },
-        {
-            "decimals": 18,
-            "symbol": "xsb",
-            "name": "XSB Swap Unit",
-            "icon": "assets/icons/xsb.svg",
-            "primaryColor": "#DEA349",
-            "addresses": {
-                "1": "0xc8ec93be9303dc7c6c9b449ccb6852cd24ef37d4"
-            }
         }
     ],
     "pairs": [
         {
-            "base": "shark",
+            "base": "belfx",
             "quote": "weth"
         },
         {
-            "base": "sharks",
+            "base": "helex",
             "quote": "weth"
         },
         {
-            "base": "shark",
+            "base": "belx",
             "quote": "usdt"
         },
         {
-            "base": "sharks",
+            "base": "helex",
             "quote": "usdt"
         },
         {
             "base": "usdt",
             "quote": "weth"
-        },
-        {
-            "base": "sharks",
-            "quote": "shark"
-        },
-        {
-            "base": "xsb",
-            "quote": "weth"
-        },
-        {
-            "base": "xsb",
-            "quote": "shark"
-        },
-        {
-            "base": "xsb",
-            "quote": "sharks"
-        },
-        {
-            "base": "xsb",
-            "quote": "usdt"
         }
     ],
     "marketFilters": [
