@@ -17,7 +17,6 @@ const FooterWrapper = styled.div`
 export const Footer: React.FC<Props> = props => {
     return (
         <FooterWrapper title={GIT_COMMIT} {...props}>
-            <p>Made with ❤️, Shark Team</p>
         </FooterWrapper>
     );
 };
